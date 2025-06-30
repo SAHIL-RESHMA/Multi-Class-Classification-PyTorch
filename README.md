@@ -1,10 +1,10 @@
-### 🎯 Multi-class Classification with Neural Networks (PyTorch)
+### Multi-class Classification with Neural Networks (PyTorch)
 
 This project demonstrates the end-to-end implementation of a multi-class classification model using PyTorch. It involves generating synthetic data, constructing a neural network, training and evaluating the model, and visualizing results. The goal is to classify data points into one of four distinct categories using a deep learning approach.
 
 ---
 
-📌 Key Features
+Key Features
 
 - Developed in **Python** using robust libraries such as **PyTorch**, **Scikit-learn**, **Matplotlib**, and **TorchMetrics**
 - Simulates a real-world multi-class classification task using generated data
@@ -14,7 +14,7 @@ This project demonstrates the end-to-end implementation of a multi-class classif
 
 ---
 
-🧠 Understanding Multi-class Classification
+Understanding Multi-class Classification
 
 Multi-class classification involves predicting the correct class label for an input where there are more than two possible classes.
 
@@ -27,7 +27,7 @@ In this project:
 
 ---
 
-📂 Dataset Overview
+Dataset Overview
 
 - **Data Source**: Generated using `sklearn.datasets.make_blobs()`
 - **Format**: Each data point has 2 numerical features and a class label (0–3)
@@ -37,7 +37,7 @@ This synthetic dataset mimics the structure of real-world classification problem
 
 ---
 
-⚙️ Project Workflow
+Project Workflow
 
 ### 1. Data Preparation
 - Generate 1000 data points across 4 centers (classes)
@@ -62,7 +62,7 @@ This synthetic dataset mimics the structure of real-world classification problem
 
 ---
 
-### 🔍 Sample Output
+### Sample Output
 - Test Accuracy: 99.50%
 - Sample Prediction:
 - Predicted Labels: tensor([1, 3, 2, 1, 0])
@@ -70,7 +70,7 @@ This synthetic dataset mimics the structure of real-world classification problem
 
 ---
 
-### 💼 Real-World Applications
+### Real-World Applications
 
 - Image recognition (e.g., digit classification)
 - Medical diagnostics (e.g., cancer type prediction)
